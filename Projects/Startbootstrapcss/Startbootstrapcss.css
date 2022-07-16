@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    background-color: #2C3E50;
+    color: #fff;
+    height: 100px;
+    padding: 40px 0;
+}
+.header .logo{
+    float: left;
+}
+.header .menu{
+    float: right;
+}
+.header .menu ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.secondpart{
+    text-align: center;
+    background-color: #1ABC9C;
+    padding: 100px;
+    color: #FFFFFF;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.secondpart h1{
+    font-size: 64px;
+}
+.secondpart h5{
+    font-size: 24px;
+}
+.secondpart img{
+    
+    width: 30%;
+
+    
+}
+.Portfolio{
+    text-align: center;
+}
+.Portfolio h1{
+    color: #2C3E50;
+    
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Portfolio i{
+
+    font-size: 30px;
+}
+.images1 img{
+    width: 33%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.images2 img{
+    width: 33%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.About{
+    color: #fff;
+    background-color: #1ABC9C;
+    text-align: center;
+    padding: 100px;
+    
+}
+.About h1{
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.secondpart i{
+    font-size: 30px;
+}
+
+.About .paragraphs{
+    display: inline-block;
+} 
+.About .paragraphs .paragraph1{
+    width: 50%;
+    float: left;
+    font-size: larger;
+
+}
+.About .paragraphs .paragparhs2{
+    width: 50%;
+    float: right;
+    font-size: larger;
+
+}
+.About i{
+    font-size: 30px;
+}
+.About button{
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #1ABC9C;
+    border: #FFFFFF solid;
+    padding: 30px 45px;
+    font-size: large;
+    
+}
+.contactme{
+    text-align: center;
+    color: #2C3E50;
+}
+.contactme h1{
+    font-size: 64px;
+}
+.contactme i{
+    font-size: 30px;
+}
+.contactme .inputs input{
+    padding: 30px 140px;
+    margin: 15px;
+    text-align: left;
+    border-bottom-color: black;
+    border-top-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    
+}
+.contactme .sendbutton button{
+    background-color:aqua;
+    text-align: left;
+    padding: 30px 45px;
+    border-radius: 20px;
+
+}
